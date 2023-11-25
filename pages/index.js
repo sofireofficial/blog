@@ -1,16 +1,9 @@
-import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Blog</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link href="https://use.fontawesome.com/releases/v6.1.0/css/all.css" rel="stylesheet" />
-      </Head>
-
       <main>
         <h1 className={styles.title}>
           Soph's Blog
@@ -24,29 +17,29 @@ export default function Home() {
 
           <div className={styles.card}>
 			      <Link href="/religion">
-            <i class="fa-solid fa-cross" style={{color: "#AF3D4E",}} aria-hidden="true" title="religion"></i>
-            <span class="sr-only">religion</span>
+            <i className="fa-solid fa-cross" style={{color: "#AF3D4E",}} aria-hidden="true" title="religion"></i>
+            <span className="sr-only">religion</span>
             </Link>
           </div>
 
           <div className={styles.card}>
 			      <Link href="/fathers">
-            <i class="fa-solid fa-baby" style={{color: "#AF3D4E",}} aria-hidden="true" title="fathers"></i>
-            <span class="sr-only">fathers</span>
+            <i className="fa-solid fa-baby" style={{color: "#AF3D4E",}} aria-hidden="true" title="fathers"></i>
+            <span className="sr-only">fathers</span>
             </Link>
           </div>
 
           <div className={styles.card}>
 			      <Link href="/other1">
-            <i class="fa-solid fa-circle-question" style={{color: "#AF3D4E",}} aria-hidden="true" title="other1"></i>
-            <span class="sr-only">other1</span>
+            <i className="fa-solid fa-circle-question" style={{color: "#AF3D4E",}} aria-hidden="true" title="other1"></i>
+            <span className="sr-only">other1</span>
             </Link>
           </div>
 
           <div className={styles.card}>
 			      <Link href="/other2">
-            <i class="fa-solid fa-circle-question" style={{color: "#AF3D4E",}} aria-hidden="true" title="other2"></i>
-            <span class="sr-only">other2</span>
+            <i className="fa-solid fa-circle-question" style={{color: "#AF3D4E",}} aria-hidden="true" title="other2"></i>
+            <span className="sr-only">other2</span>
             </Link>
           </div>
 
